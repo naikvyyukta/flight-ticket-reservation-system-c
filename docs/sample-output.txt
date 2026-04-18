@@ -1,0 +1,12 @@
+Enter Choice: 1
+Enter Ticket ID: 101
+Enter Name: Rahul
+Enter Source: Mumbai
+Enter Destination: Delhi
+Booking Added!
+
+Enter Choice: 3
+Ticket ID: 101
+Name: Rahul
+From: Mumbai
+To: Delhi
