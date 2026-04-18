@@ -1,12 +1,12 @@
-Enter Choice: 1
-Enter Ticket ID: 101
-Enter Name: Rahul
-Enter Source: Mumbai
-Enter Destination: Delhi
-Booking Added!
-
-Enter Choice: 3
-Ticket ID: 101
-Name: Rahul
-From: Mumbai
-To: Delhi
+Menut
+i-Add Booking
+2-Delete Booking
+3-Display
+4-Seareh Booking
+5-Save to Excel
+6-Exit
+Enter Choice :1
+Enter Ticket ID: 1236
+Enter Name: Yukta
+Enter Source: Kerala
+Enter Destination:Lucknow
