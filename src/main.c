@@ -36,7 +36,7 @@ void display(DL *l)
         p = p->next;
     }
 }
-
+// Function to insert booking
 void insert(DL *l)
 {
     node *newrec;
@@ -58,7 +58,7 @@ void insert(DL *l)
     l->start = newrec;
     printf("\nBooking Added!");
 }
-
+// Function to delete booking using Ticket ID
 void deleteB(DL *l)
 {
     node *p;
@@ -94,7 +94,7 @@ void deleteB(DL *l)
     }
     printf("\nTicket ID %d not found!", tid);
 }
-
+// Function to save data into CSV file
 void saveToFile(DL *l)
 {
     FILE *fp;
