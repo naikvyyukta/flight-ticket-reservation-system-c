@@ -1,23 +1,53 @@
-# Flight Ticket Reservation System
+ # flight-ticket-reservation-system-c
+Flight Ticket Reservation Management System using Doubly Linked List (Data Structures in C)
 
-This project manages flight bookings using Doubly Linked List in C.
+## Objective
+The objective of this project is to develop a Flight Ticket Reservation Management System using C programming and Doubly Linked List. The system helps manage flight reservations efficiently by allowing users to insert, delete, search, and display ticket records.
 
 ## Features
-- Add booking
-- Delete booking
-- Display bookings
-- Save data to CSV file (Excel)
+- Add new flight ticket reservations
+- Delete reservation records
+- Search reservation using Ticket ID
+- Display all reservation details
+- Navigate records using Doubly Linked List
+- User-friendly menu-driven program
+- Simple and efficient data handling
+
+## Technologies Used
+- C Programming Language
+- Dev-C++
+- Git and GitHub
 
 ## Data Structure Used
-Doubly Linked List
+This project uses a Doubly Linked List data structure.
 
-## How to Run
-1. Compile using C compiler
-2. Run the program
-3. Use menu options
+Each reservation record contains:
+- Ticket ID
+- Passenger Name
+- Source
+- Destination
 
-## Output File
-Data is saved in flights.csv (can be opened in Excel)
+Doubly Linked List is used because it allows easy insertion, deletion, and searching
+
+## How to Run the Code
+1. Open the project in any C compiler.
+2. Compile the main.c file.
+3. Run the program.
+4. Select options from the menu to perform operations.
+
+Example commands:
+
+gcc main.c -o main
+./main
+
+## Sample Menu Options
+Menu
+1-Add Booking
+2-Delete Booking
+3-Display
+4-Seareh Booking
+5-Save to Excel
+6-Exit
 
 ## Author
 Yukta V Naik
